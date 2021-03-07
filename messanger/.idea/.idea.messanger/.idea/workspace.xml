@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fda599e-7e31-4f93-8bf0-37859fbc05a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/19925 SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/19925 SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/19925.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/19925.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Logo.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Logo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615110928983</updated>
-      <workItem from="1615110937086" duration="291000" />
+      <workItem from="1615110937086" duration="1035000" />
     </task>
     <servers />
   </component>
