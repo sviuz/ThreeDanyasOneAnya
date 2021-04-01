@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerServer", "MessengerServer\MessengerServer.csproj", "{B9AED585-4FEE-4646-9BAB-F862B5E4D856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseSetup", "DatabaseSetup\DatabaseSetup.csproj", "{B3ECA3D3-B2FD-462C-BA7C-B0FF3B3CAC8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9AED585-4FEE-4646-9BAB-F862B5E4D856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AED585-4FEE-4646-9BAB-F862B5E4D856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AED585-4FEE-4646-9BAB-F862B5E4D856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AED585-4FEE-4646-9BAB-F862B5E4D856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3ECA3D3-B2FD-462C-BA7C-B0FF3B3CAC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3ECA3D3-B2FD-462C-BA7C-B0FF3B3CAC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3ECA3D3-B2FD-462C-BA7C-B0FF3B3CAC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3ECA3D3-B2FD-462C-BA7C-B0FF3B3CAC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1CF83F0-0E84-4CC9-8014-EE1507D94ED6}
+	EndGlobalSection
+EndGlobal
