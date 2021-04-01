@@ -1,0 +1,30 @@
+﻿<Window x:Name="Menu" x:Class="MessengerServer.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MessengerServer"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800" Closing="Menu_Closing">
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#7FFFFFFF" Margin="5">
+            <Button x:Name="btnPersonalInfo" Margin="5" Height="37" Background="#7FFFFFFF" BorderBrush="White">Personal info</Button>
+            <Button x:Name="btnBanMenu" Margin="5" Height="37" Background="#7FFFFFFF" BorderBrush="White">Ban menu</Button>
+            <Button x:Name="btnDBTables" Margin="5" Height="37" Background="#7FFFFFFF" BorderBrush="White">Database tables</Button>
+            <Button x:Name="btnChats" Margin="5" Height="37" Background="#7FFFFFFF" BorderBrush="White">Chats</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+
+        </StackPanel>
+    </Grid>
+</Window>
