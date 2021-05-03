@@ -23,6 +23,7 @@
           <e p="UserInfo" t="Include">
             <e p="User.cs" t="Include" />
           </e>
+          <e p="WordWithData.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
