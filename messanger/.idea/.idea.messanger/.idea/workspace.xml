@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fda599e-7e31-4f93-8bf0-37859fbc05a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MessageHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MessageHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +14,13 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Buttons/HideContactSection.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScrollBarHide.cs" />
+      <option value="$PROJECT_DIR$/Assets/LoginButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/MessageHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Messages/Message.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Messages/MessageHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pQMb4IjvcD6vgv5A5JsQL9qvwy" />
@@ -28,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -59,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615110928983</updated>
       <workItem from="1615110937086" duration="1035000" />
+      <workItem from="1620071991624" duration="102000" />
     </task>
     <servers />
   </component>
@@ -77,6 +85,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
