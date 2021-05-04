@@ -10,6 +10,5 @@ namespace Messages {
 
         public string GetMessageDate() => SendingDate.Date.ToShortDateString();
         public string GetMessageTime() => SendingDate.ToShortTimeString();
-
     }
 }

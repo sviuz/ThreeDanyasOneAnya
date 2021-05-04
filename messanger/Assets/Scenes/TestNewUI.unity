@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 348194200}
   - component: {fileID: 348194199}
   m_Layer: 5
-  m_Name: InputField (2)
+  m_Name: InputField UserName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -498,7 +498,7 @@ RectTransform:
   - {fileID: 849336429}
   - {fileID: 1355446836}
   m_Father: {fileID: 746131920}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -555,7 +555,7 @@ MonoBehaviour:
   m_LineType: 0
   m_HideMobileInput: 0
   m_CharacterValidation: 0
-  m_CharacterLimit: 0
+  m_CharacterLimit: 20
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls: []
@@ -795,9 +795,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 348194198}
   - {fileID: 1987015121}
   - {fileID: 825788808}
-  - {fileID: 348194198}
   m_Father: {fileID: 886016572}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -978,7 +978,7 @@ GameObject:
   - component: {fileID: 825788810}
   - component: {fileID: 825788809}
   m_Layer: 5
-  m_Name: InputField (1)
+  m_Name: InputField Password
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -998,7 +998,7 @@ RectTransform:
   - {fileID: 1483054059}
   - {fileID: 658683451}
   m_Father: {fileID: 746131920}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1048,8 +1048,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 825788810}
   m_TextComponent: {fileID: 658683452}
   m_Placeholder: {fileID: 1483054060}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -1198,6 +1198,7 @@ GameObject:
   - component: {fileID: 886016572}
   - component: {fileID: 886016574}
   - component: {fileID: 886016573}
+  - component: {fileID: 886016575}
   m_Layer: 5
   m_Name: Main Panel
   m_TagString: Untagged
@@ -1266,6 +1267,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886016571}
   m_CullTransparentMesh: 1
+--- !u!114 &886016575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886016571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294da97e3dbfa094bbaf0f29774474e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Login: {fileID: 0}
+  username: {fileID: 0}
+  emailLogin: {fileID: 0}
+  passwordLogin: {fileID: 0}
+  Register: {fileID: 0}
+  emailRegister: {fileID: 0}
+  passwordRegister: {fileID: 0}
 --- !u!1 &904311492
 GameObject:
   m_ObjectHideFlags: 0
@@ -2671,7 +2691,7 @@ GameObject:
   - component: {fileID: 1987015123}
   - component: {fileID: 1987015122}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: InputField Email
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2691,7 +2711,7 @@ RectTransform:
   - {fileID: 1047598245}
   - {fileID: 1201484385}
   m_Father: {fileID: 746131920}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2741,13 +2761,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1987015123}
   m_TextComponent: {fileID: 1201484386}
   m_Placeholder: {fileID: 1047598246}
-  m_ContentType: 0
+  m_ContentType: 6
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 7
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 5
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:

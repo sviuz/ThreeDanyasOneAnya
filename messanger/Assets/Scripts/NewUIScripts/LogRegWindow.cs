@@ -7,41 +7,48 @@ using UserInfo;
 
 public class LogRegWindow : MonoBehaviour {
     [Header("Login Section")] [SerializeField]
-    private Button Login;
+    private Button LoginButton;
 
     [Space] [SerializeField] private Text emailLogin;
     [SerializeField] private Text passwordLogin;
 
     [Header("Registr ation Section")] [SerializeField]
-    private Button Register;
+    private Button RegisterButton;
 
-    [Space] [SerializeField] private Text emailRegister;
+    [Space] [SerializeField] private Text username;
+    [SerializeField] private Text emailRegister;
     [SerializeField] private Text passwordRegister;
 
     void Start() {
-        Login.onClick.AddListener(OnLoginClick);
+        LoginButton.onClick.AddListener(OnLoginClick);
+        RegisterButton.onClick.AddListener(OnRegisterClick);
     }
 
     private void OnRegisterClick() {
-        
-    }
-
-    private void OnLoginClick() {
-        if (string.IsNullOrEmpty(emailLogin.text) && string.IsNullOrEmpty(passwordLogin.text)) {
-            if (IsValid(emailLogin.text)) {
-                PlayerPrefs.SetString("user_email", emailLogin.text);
+        if (string.IsNullOrEmpty(username.text) && string.IsNullOrEmpty(emailRegister.text) && string.IsNullOrEmpty(passwordRegister.text)) {
+            if (IsEmailValid(emailRegister.text)) {
+                PlayerPrefs.SetString("user_email", emailRegister.text);
             }
-            PlayerPrefs.SetString("user_password", passwordLogin.text);
+            PlayerPrefs.SetString("user_password", passwordRegister.text);
+            
+            //TODO creating user object then sending it to server and saving his parameters to PlayerPrefs
+            User user = new User(IdGenerator.GenerateId(), username.text, emailRegister.text, passwordRegister.text);
             
         }
     }
-
-    /*public void OnUserCreate() {
-        User user = new User();
-        
-    }*/
     
-    private bool IsValid(string emailaddress) {
+    
+
+    private void OnLoginClick() {
+        if (string.IsNullOrEmpty(emailLogin.text) && string.IsNullOrEmpty(passwordLogin.text)) {
+            if (IsEmailValid(emailLogin.text)) {
+                PlayerPrefs.SetString("user_email", emailLogin.text);
+            }
+            PlayerPrefs.SetString("user_password", passwordLogin.text);
+        }
+    }
+    
+    private bool IsEmailValid(string emailaddress) {
         try {
             MailAddress m = new MailAddress(emailaddress);
             return true;

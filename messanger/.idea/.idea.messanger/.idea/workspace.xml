@@ -12,18 +12,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IdGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Buttons/HideContactSection.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScrollBarHide.cs" />
       <option value="$PROJECT_DIR$/Assets/LoginButton.cs" />
       <option value="$PROJECT_DIR$/Assets/MessageHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Preloader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Messages/Message.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Messages/MessageHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WordWithData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IdGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NewUIScripts/LogRegWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Preloader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pQMb4IjvcD6vgv5A5JsQL9qvwy" />

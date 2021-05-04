@@ -11,6 +11,7 @@
           <e p="Buttons" t="Include">
             <e p="HideContactSection.cs" t="Include" />
           </e>
+          <e p="IdGenerator.cs" t="Include" />
           <e p="Messages" t="Include">
             <e p="Message.cs" t="Include" />
             <e p="MessageHandler.cs" t="Include" />
