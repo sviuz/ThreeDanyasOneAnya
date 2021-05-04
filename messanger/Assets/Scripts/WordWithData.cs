@@ -7,5 +7,7 @@ namespace DefaultNamespace {
             //TODO реализовать получение всех сообщений по id пользователя и id собеседника
             return null;
         }
+        
+        
     }
 }

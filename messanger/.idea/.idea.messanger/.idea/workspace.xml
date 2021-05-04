@@ -19,9 +19,11 @@
       <option value="$PROJECT_DIR$/Assets/LoginButton.cs" />
       <option value="$PROJECT_DIR$/Assets/MessageHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Messages/Message.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/WordWithData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Messages/MessageHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WordWithData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewUIScripts/LogRegWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Preloader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pQMb4IjvcD6vgv5A5JsQL9qvwy" />
