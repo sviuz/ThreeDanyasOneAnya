@@ -1,14 +1,10 @@
-﻿using UnityEngine;
-
-namespace UserInfo {
+﻿namespace UserInfo {
     public class User {
-        private string id;
-        private string username;
-        private string email;//regex in loginWindow
-        private string password;//********** in password in loginWindow
-        /*private bool isOnline;
-        private bool isShowLastOnline;
-        private string lastOnline;*/
+        public string id;
+        public string username;
+        public string email;//regex in loginWindow
+        public string password;//********** in password in loginWindow
+        
 
         public User(string id, string username, string email, string password) {
             this.id = id;
