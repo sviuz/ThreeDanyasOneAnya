@@ -19,8 +19,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/PLAYERPREFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/DataExamples.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
@@ -63,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <option value="$PROJECT_DIR$/Assets/Scripts/WindowsManager/AuthWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Other/PanelChanger.cs" />
 =======
@@ -79,6 +83,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/NewUIScripts/LogRegWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/PanelChanger.cs" />
 >>>>>>> parent of 855cadb (Added some view in main scene)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======

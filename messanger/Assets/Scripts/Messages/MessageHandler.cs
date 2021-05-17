@@ -6,6 +6,7 @@ using Messages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Messages {
     public static class MessageHandler{
         private static List<Message> _messages;
@@ -31,6 +32,8 @@ public static class MessageHandler{
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
 public static class MessageHandler{
     private static List<Message> _messages;
 
@@ -38,6 +41,9 @@ public static class MessageHandler{
         _messages = WorkWithData.GetAllChat(myId,friendId);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f5365c4 (Added new plugin)
+=======
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
