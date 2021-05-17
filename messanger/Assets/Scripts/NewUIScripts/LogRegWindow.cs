@@ -11,6 +11,7 @@ public class LogRegWindow : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [Header("Login Section")]
     [SerializeField] private Text emailLogin;
 =======
@@ -29,6 +30,8 @@ public class LogRegWindow : MonoBehaviour {
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
     [Header("Login Section")] [SerializeField]
     private Text emailLogin;
 
@@ -38,6 +41,7 @@ public class LogRegWindow : MonoBehaviour {
     [Header("Registration Section")] [SerializeField]
     private Text username;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of f5365c4 (Added new plugin)
@@ -166,6 +170,8 @@ public class LogRegWindow : MonoBehaviour {
 =======
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
     [SerializeField] private Text emailRegister;
     [SerializeField] private Text passwordRegister;
     [SerializeField] private Button Register;
@@ -207,6 +213,9 @@ public class LogRegWindow : MonoBehaviour {
         else {
             ErrorText.text = "Yiu have some errors. Fix 'em.";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f5365c4 (Added new plugin)
+=======
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)

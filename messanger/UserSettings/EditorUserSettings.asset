@@ -10,6 +10,7 @@ EditorUserSettings:
     RecentlyUsedScenePath-0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c6f02131b172b282d347e38271427fb
       flags: 0
     RecentlyUsedScenePath-1:
@@ -20,6 +21,18 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-3:
       value: 22424703114646680e0b0227036c7c1817030c2f3e66333e243d04
+=======
+      value: 224247031146466b0501182d1e636a1e1f03016a022d3227223b163aece77b1ce7ea39faa81e3a31362fea3f05300832bd2e0c06f9260f081000f4035ccc13161fc056d014c10b05
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 224247031146466b0501182d1e636a1e1f03016a022d3227223b163aece77b1ce7ea39faa80a2a321b03fc35072d4c0be71e0619ff0a0644220df80014ec5f2304cb3ac409c11c0f862b13c1c05dd7ecc79687a4cde5eeccc7
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 224247031146466b0501182d1e636a1e1f03016a022d3227223b163aece77b1ce7ea39faa81e3a313624fd350130052cd3040d28e3181e041c2fe81a19b034161cca3ed713cd1118d8542fcdc813d4adc0d8ddfec1
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 224247031146466b0501182d1e636a1e1f03016a022d3227223b163aece77b1ce7ea39faa80a2a321b03fc35072d4c0be71e0619ff0a0644220df80014ec5f2304cb3ac409c11c0f86351ddbc31ed9e6c798c1e4d1fffe
+>>>>>>> parent of f5365c4 (Added new plugin)
 =======
       value: 224247031146466b0501182d1e636a1e1f03016a022d3227223b163aece77b1ce7ea39faa81e3a31362fea3f05300832bd2e0c06f9260f081000f4035ccc13161fc056d014c10b05
       flags: 0
