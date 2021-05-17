@@ -13,9 +13,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/PLAYERPREFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/DataExamples.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Panels/ContactListView.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IdGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> parent of 855cadb (Added some view in main scene)
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -27,9 +31,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Messages/Message.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WordWithData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IdGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
       <option value="$PROJECT_DIR$/Assets/PreloaderWindow.cs" />
-      <option value="$PROJECT_DIR$/Assets/PanelChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NewUIScripts/LogRegWindow.cs" />
+<<<<<<< HEAD
       <option value="$PROJECT_DIR$/Assets/ScrollbarHider.cs" />
       <option value="$PROJECT_DIR$/Assets/FriendPanelObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Data/WordWithData.cs" />
@@ -49,6 +54,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Panels/ContactListView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WindowsManager/AuthWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Other/PanelChanger.cs" />
+=======
+      <option value="$PROJECT_DIR$/Assets/PanelChanger.cs" />
+>>>>>>> parent of 855cadb (Added some view in main scene)
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pQMb4IjvcD6vgv5A5JsQL9qvwy" />
@@ -70,7 +78,6 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -80,7 +87,6 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
