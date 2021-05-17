@@ -3,6 +3,7 @@ using DefaultNamespace;
 using Messages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Messages {
     public static class MessageHandler{
         private static List<Message> _messages;
@@ -23,6 +24,13 @@ public static class MessageHandler{
 
     public static void LoadBase(string myId, string friendId) {
         _messages = WordWithData.GetAllChat(myId,friendId);
+=======
+public static class MessageHandler{
+    private static List<Message> _messages;
+
+    public static void LoadBase(string myId, string friendId) {
+        _messages = WorkWithData.GetAllChat(myId,friendId);
+>>>>>>> parent of f5365c4 (Added new plugin)
     }
 
 }

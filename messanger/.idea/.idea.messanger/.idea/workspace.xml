@@ -16,8 +16,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/PLAYERPREFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/DataExamples.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Panels/ContactListView.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,6 +54,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Data/WorkWithData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Panels/ContactListView.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <option value="$PROJECT_DIR$/Assets/Scripts/WindowsManager/AuthWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Other/PanelChanger.cs" />
 =======
@@ -67,6 +71,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/NewUIScripts/LogRegWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/PanelChanger.cs" />
 >>>>>>> parent of 855cadb (Added some view in main scene)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pQMb4IjvcD6vgv5A5JsQL9qvwy" />
@@ -80,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">

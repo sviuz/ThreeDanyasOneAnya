@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - ErrorOnLogin
+  - ErrorOnRegister
+>>>>>>> parent of f5365c4 (Added new plugin)
   layers:
   - Default
   - TransparentFX
