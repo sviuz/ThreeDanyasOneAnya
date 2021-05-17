@@ -14,8 +14,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/PLAYERPREFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/DataExamples.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Panels/ContactListView.cs" root0="FORCE_HIGHLIGHTING" />
 =======
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IdGenerator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,6 +32,7 @@
       <option value="$PROJECT_DIR$/Assets/MessageHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Preloader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Messages/Message.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Messages/MessageHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WordWithData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IdGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
@@ -37,26 +41,19 @@
 <<<<<<< HEAD
       <option value="$PROJECT_DIR$/Assets/ScrollbarHider.cs" />
       <option value="$PROJECT_DIR$/Assets/FriendPanelObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Data/WordWithData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Photon/ChatManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/ShowMyInfo.cs" />
-      <option value="$PROJECT_DIR$/Assets/PLAYERPREFS.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/NewUIScripts/AuthWindow.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Other/IdGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DataExamples.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Messages/MessageHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/WindowsManager/Preloader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo/User.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Data/ShowMyInfo.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Data/WorkWithData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Other/DataExamples.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Other/StringGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Panels/ContactListView.cs" />
+<<<<<<< HEAD
       <option value="$PROJECT_DIR$/Assets/Scripts/WindowsManager/AuthWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Other/PanelChanger.cs" />
 =======
       <option value="$PROJECT_DIR$/Assets/PanelChanger.cs" />
 >>>>>>> parent of 855cadb (Added some view in main scene)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pQMb4IjvcD6vgv5A5JsQL9qvwy" />
@@ -70,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">

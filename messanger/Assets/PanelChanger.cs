@@ -1,44 +1,30 @@
-using WindowsManager;
 using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class PanelChanger : MonoBehaviour
 {
-    [FormerlySerializedAs("LoginTopButton")] [SerializeField] private Button loginTopButton;
-    [FormerlySerializedAs("RegisterTopButton")] [SerializeField] private Button registerTopButton;
-    [FormerlySerializedAs("LoginPanel")] [SerializeField] private GameObject loginPanel;
-    [FormerlySerializedAs("RegisterPanel")] [SerializeField] private GameObject registerPanel;
-    [SerializeField] private GameObject colorPalette;
-    [SerializeField] private Button colorButton;
-    [SerializeField] private Button ColorPicker;
-
+    [SerializeField] private Button LoginTopButton;
+    [SerializeField] private Button RegisterTopButton;
+    [SerializeField] private GameObject LoginPanel;
+    [SerializeField] private GameObject RegisterPanel;
+    [SerializeField] private Image LoginColor;
+    [SerializeField] private Image RegisterColor;
     private bool _isLogin = true;
     
     void Start(){
-        loginTopButton.onClick.AddListener(ShowLoginPanel);
-        registerTopButton.onClick.AddListener(ShowRegisterPanel);
-        colorButton.onClick.AddListener(SelectColor);
-        ColorPicker.onClick.AddListener(PickAColor);
+        LoginTopButton.onClick.AddListener(ShowLoginPanel);
+        RegisterTopButton.onClick.AddListener(ShowRegisterPanel);
     }
 
     private void ShowLoginPanel() {
-        AuthWindow.OnErrorsClean?.Invoke();
-        loginPanel.SetActive(true);
-        registerPanel.SetActive(false);
-    }
-
-    private void PickAColor() {
-        colorPalette.SetActive(false);
-    }
-
-    private void SelectColor() {
-        colorPalette.SetActive(true);
+        LogRegWindow.OnErrorsClean?.Invoke();
+        LoginPanel.SetActive(true);
+        RegisterPanel.SetActive(false);
     }
 
     private void ShowRegisterPanel() {
-        AuthWindow.OnErrorsClean?.Invoke();
-        loginPanel.SetActive(false);
-        registerPanel.SetActive(true);
+        LogRegWindow.OnErrorsClean?.Invoke();
+        LoginPanel.SetActive(false);
+        RegisterPanel.SetActive(true);
     }
 }

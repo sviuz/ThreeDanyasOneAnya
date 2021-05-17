@@ -6,7 +6,6 @@ TagManager:
   tags:
   - ErrorOnLogin
   - ErrorOnRegister
-  - UserColor
   layers:
   - Default
   - TransparentFX
