@@ -527,6 +527,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -703.779, y: -39.986}
   m_SizeDelta: {x: -1407.558, y: -79.971}
 =======
@@ -541,6 +542,10 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
 >>>>>>> parent of 855cadb (Added some view in main scene)
+=======
+  m_AnchoredPosition: {x: -703.779, y: 0}
+  m_SizeDelta: {x: -1407.558, y: 0}
+>>>>>>> parent of f5365c4 (Added new plugin)
 =======
   m_AnchoredPosition: {x: -703.779, y: 0}
   m_SizeDelta: {x: -1407.558, y: 0}
@@ -947,6 +952,7 @@ RectTransform:
   - {fileID: 408320799}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 712540919889592511}
   - {fileID: 5033550856716018777}
 =======
@@ -955,6 +961,8 @@ RectTransform:
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of 855cadb (Added some view in main scene)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)
   m_Father: {fileID: 0}
@@ -1042,6 +1050,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133187912}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &583854234819593246
@@ -1502,5 +1511,7 @@ GameObject:
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of 855cadb (Added some view in main scene)
+=======
+>>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of f5365c4 (Added new plugin)

@@ -9,6 +9,9 @@ TagManager:
   tags:
   - ErrorOnLogin
   - ErrorOnRegister
+<<<<<<< HEAD
+>>>>>>> parent of f5365c4 (Added new plugin)
+=======
 >>>>>>> parent of f5365c4 (Added new plugin)
   layers:
   - Default
