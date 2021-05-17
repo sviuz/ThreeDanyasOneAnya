@@ -25,8 +25,5 @@ namespace UserInfo {
             this.password = password;
         }
 
-        public void Create() {
-            //TODO Send User's data to server.
-        }
     }
 }
