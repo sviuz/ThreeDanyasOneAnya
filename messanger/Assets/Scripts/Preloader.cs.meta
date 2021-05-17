@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 05b622bed51ab644bb530ad472c28f2f
+=======
+guid: 65f4e94922632454a92f4670203aeff2
+>>>>>>> parent of 855cadb (Added some view in main scene)
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

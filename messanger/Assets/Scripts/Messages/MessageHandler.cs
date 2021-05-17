@@ -22,7 +22,7 @@ public static class MessageHandler{
 >>>>>>> parent of f5365c4 (Added new plugin)
 
     public static void LoadBase(string myId, string friendId) {
-        _messages = WorkWithData.GetAllChat(myId,friendId);
+        _messages = WordWithData.GetAllChat(myId,friendId);
     }
 
 }

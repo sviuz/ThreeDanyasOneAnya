@@ -3,12 +3,15 @@
 namespace UserInfo {
     public class User {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public string id;
         public string username;
         public string email;//regex in loginWindow
         public string password;//********** in password in loginWindow
         
 =======
+=======
+>>>>>>> parent of 855cadb (Added some view in main scene)
         private string id;
         private string username;
         private string email;//regex in loginWindow
@@ -16,6 +19,9 @@ namespace UserInfo {
         /*private bool isOnline;
         private bool isShowLastOnline;
         private string lastOnline;*/
+<<<<<<< HEAD
+>>>>>>> parent of 855cadb (Added some view in main scene)
+=======
 >>>>>>> parent of 855cadb (Added some view in main scene)
 
         public User(string id, string username, string email, string password) {

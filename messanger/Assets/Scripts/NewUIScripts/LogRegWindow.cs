@@ -8,6 +8,7 @@ using UserInfo;
 public class LogRegWindow : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [Header("Login Section")]
     [SerializeField] private Text emailLogin;
 =======
@@ -38,11 +39,21 @@ public class LogRegWindow : MonoBehaviour {
 
     [Space] [SerializeField] private Text username;
 >>>>>>> parent of 7526548 (Added Error text. Fixed moving from panel to panel.)
+=======
+    [Header("Login Section")]
+    [SerializeField] private Text emailLogin;
+    [SerializeField] private Text passwordLogin;
+    [SerializeField] private Button Login;
+
+    [Header("Registration Section")]
+    [SerializeField] private Text username;
+>>>>>>> parent of 855cadb (Added some view in main scene)
     [SerializeField] private Text emailRegister;
     [SerializeField] private Text passwordRegister;
 
 <<<<<<< HEAD
     public static Action OnErrorsClean;
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -50,10 +61,14 @@ public class LogRegWindow : MonoBehaviour {
 >>>>>>> parent of f5365c4 (Added new plugin)
 =======
 >>>>>>> parent of 7526548 (Added Error text. Fixed moving from panel to panel.)
+=======
+    
+>>>>>>> parent of 855cadb (Added some view in main scene)
     void Start() {
         LoginButton.onClick.AddListener(OnLoginClick);
         RegisterButton.onClick.AddListener(OnRegisterClick);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -74,28 +89,36 @@ public class LogRegWindow : MonoBehaviour {
         }
 =======
 
+=======
+    
+    
+>>>>>>> parent of 855cadb (Added some view in main scene)
 
     private void OnRegisterClick() {
         OnErrorsClean?.Invoke();
-        if (string.IsNullOrEmpty(username.text) && string.IsNullOrEmpty(emailRegister.text) &&
-            string.IsNullOrEmpty(passwordRegister.text)) {
-            PlayerPrefs.SetString("user_email", emailRegister.text);
+        if (string.IsNullOrEmpty(username.text) && string.IsNullOrEmpty(emailRegister.text) && string.IsNullOrEmpty(passwordRegister.text)) {
+            if (IsEmailValid(emailRegister.text)) {
+                PlayerPrefs.SetString("user_email", emailRegister.text);
+            }
             PlayerPrefs.SetString("user_password", passwordRegister.text);
-
-            SceneManager.LoadScene("Chatter");
+            
             //TODO creating user object then sending it to server and saving his parameters to PlayerPrefs
             //User user = new User(IdGenerator.GenerateId(), username.text, emailRegister.text, passwordRegister.text);
         }
+<<<<<<< HEAD
         else {
             ErrorText.text = "Yiu have some errors. Fix 'em.";
         }
 >>>>>>> parent of f5365c4 (Added new plugin)
+=======
+>>>>>>> parent of 855cadb (Added some view in main scene)
     }
     
     
 
     private void OnLoginClick() {
         if (string.IsNullOrEmpty(emailLogin.text) && string.IsNullOrEmpty(passwordLogin.text)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (IsEmailValid(emailLogin.text)) {
                 PlayerPrefs.SetString("user_email", emailLogin.text);
@@ -113,12 +136,25 @@ public class LogRegWindow : MonoBehaviour {
             return false;
 =======
             PlayerPrefs.SetString("user_email", emailLogin.text);
+=======
+            if (IsEmailValid(emailLogin.text)) {
+                PlayerPrefs.SetString("user_email", emailLogin.text);
+            }
+>>>>>>> parent of 855cadb (Added some view in main scene)
             PlayerPrefs.SetString("user_password", passwordLogin.text);
-            SceneManager.LoadScene("Chatter");
-        }
-        else {
+        }else {
             ErrorText.text = "Yiu have some errors. Fix 'em.";
 >>>>>>> parent of f5365c4 (Added new plugin)
+        }
+    }
+    
+    private bool IsEmailValid(string emailaddress) {
+        try {
+            MailAddress m = new MailAddress(emailaddress);
+            return true;
+        }
+        catch (FormatException) {
+            return false;
         }
     }
 }
